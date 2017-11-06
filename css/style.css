@@ -42,7 +42,7 @@
 .headerBackground {
   width: 95%;
   height: 100vh;
-  background: url(../images/headerBackground.png) no-repeat center/cover;
+  background: url(../images/headerBackground.png);
   display: flex;
   justify-content: center;
   align-items: center;
