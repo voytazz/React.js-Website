@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainBackground {
+    width: 100%;
+    height: 650vh;
+    color: blue;
+    background: url("../images/main-background.png");
+}
+
+.headerMenu {
+    width: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headerFlex {
+    display: flex;
+}
+
+.headerMenuText {
+    width: 200px;
+    transform: rotate(270deg);
+    margin: 200px 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+    .headerArrow {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+    }
+
+}
+
+.headerBackground {
+    width: 95%;
+    height: 100vh;
+    background: url("../images/headerBackground.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburgerMenu {
+    width: 40%;
+    margin: 50px 0;
+
+    .hamburger {
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+}
