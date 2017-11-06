@@ -81,13 +81,11 @@
 .headerBackgroundDate {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
   color: white;
   margin: 50px;
   line-height: 30px;
-}
-
-.headerBackgroundDate p {
-  margin-top: 20px;
 }
 
 .envelope {
@@ -109,4 +107,32 @@
 .paintPixtureFlex img {
   width: 30%;
   height: 50%;
+}
+
+/* Section 2 */
+
+.pictureSection h2 {
+  color: white;
+  margin: 0 5%;
+}
+
+.photoBox {
+  margin: 0 5%;
+  width: 25%;
+  height: 60vh;
+  background-color: white;
+}
+
+.boxPhoto {
+  width: 100%;
+  height: 50%;
+}
+
+.boxPhoto img {
+  width: 100%;
+  height: 100%;
+}
+
+.photoBoxText {
+  color: black;
 }

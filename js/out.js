@@ -9629,7 +9629,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { className: 'headerFlex' },
                         _react2.default.createElement(HeaderMenu, null),
                         _react2.default.createElement(HeaderBackground, null)
-                    )
+                    ),
+                    _react2.default.createElement(PictureBoxes, null)
                 );
             }
         }]);
@@ -9666,7 +9667,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(
                             'span',
                             null,
-                            'PAINT THE POWE'
+                            'PAINT THE POWER'
                         )
                     )
                 );
@@ -9735,8 +9736,49 @@ document.addEventListener('DOMContentLoaded', function () {
         return HeaderBackground;
     }(_react2.default.Component);
 
-    var App = function (_React$Component4) {
-        _inherits(App, _React$Component4);
+    var PictureBoxes = function (_React$Component4) {
+        _inherits(PictureBoxes, _React$Component4);
+
+        function PictureBoxes() {
+            _classCallCheck(this, PictureBoxes);
+
+            return _possibleConstructorReturn(this, (PictureBoxes.__proto__ || Object.getPrototypeOf(PictureBoxes)).apply(this, arguments));
+        }
+
+        _createClass(PictureBoxes, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'pictureSection' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Pictures worth seeing'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'photoBox' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'boxPhoto' },
+                            _react2.default.createElement('img', { src: './images/first-box.png' })
+                        ),
+                        _react2.default.createElement(
+                            'h2',
+                            { className: 'photoBoxText' },
+                            'Pressure'
+                        )
+                    )
+                );
+            }
+        }]);
+
+        return PictureBoxes;
+    }(_react2.default.Component);
+
+    var App = function (_React$Component5) {
+        _inherits(App, _React$Component5);
 
         function App() {
             _classCallCheck(this, App);
