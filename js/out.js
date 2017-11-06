@@ -9630,7 +9630,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(HeaderMenu, null),
                         _react2.default.createElement(HeaderBackground, null)
                     ),
-                    _react2.default.createElement(PictureBoxes, null)
+                    _react2.default.createElement(PictureBoxes, null),
+                    _react2.default.createElement(YourPassion, null)
                 );
             }
         }]);
@@ -9758,16 +9759,78 @@ document.addEventListener('DOMContentLoaded', function () {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'photoBox' },
+                        { className: 'photoBoxFlex' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'boxPhoto' },
-                            _react2.default.createElement('img', { src: './images/first-box.png' })
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                ),
+                                _react2.default.createElement('hr', null)
+                            )
                         ),
                         _react2.default.createElement(
-                            'h2',
-                            { className: 'photoBoxText' },
-                            'Pressure'
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                ),
+                                _react2.default.createElement('hr', null)
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                ),
+                                _react2.default.createElement('hr', null)
+                            )
                         )
                     )
                 );
@@ -9777,8 +9840,47 @@ document.addEventListener('DOMContentLoaded', function () {
         return PictureBoxes;
     }(_react2.default.Component);
 
-    var App = function (_React$Component5) {
-        _inherits(App, _React$Component5);
+    var YourPassion = function (_React$Component5) {
+        _inherits(YourPassion, _React$Component5);
+
+        function YourPassion() {
+            _classCallCheck(this, YourPassion);
+
+            return _possibleConstructorReturn(this, (YourPassion.__proto__ || Object.getPrototypeOf(YourPassion)).apply(this, arguments));
+        }
+
+        _createClass(YourPassion, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'headerMenu' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'hamburgerMenu' },
+                        _react2.default.createElement('div', { className: 'hamburger' }),
+                        _react2.default.createElement('div', { className: 'hamburger' }),
+                        _react2.default.createElement('div', { className: 'hamburger' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'headerMenuText' },
+                        _react2.default.createElement('div', { className: 'headerArrow' }),
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            'PAINT THE POWER'
+                        )
+                    )
+                );
+            }
+        }]);
+
+        return YourPassion;
+    }(_react2.default.Component);
+
+    var App = function (_React$Component6) {
+        _inherits(App, _React$Component6);
 
         function App() {
             _classCallCheck(this, App);

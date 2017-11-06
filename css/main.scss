@@ -117,15 +117,16 @@
 .pictureSection {
     h2 {
         color:white;
-        margin: 0 5%;
+        margin: 30px 5%;
     }
 }
 
 .photoBox {
-    margin:0 5%;
-    width:25%;
+   
+    width:20%;
     height: 60vh;
     background-color:white;
+    
 }
 
 .boxPhoto {
@@ -137,10 +138,25 @@
     }
 }
 
-.photoBoxText {
+.photoBoxText{
+    h2 {
     color:black;
+        }
+    span {
+        width:60%;
+        color:gray;
+        margin: 0 5%;
+    }
 }
 
+.photoBoxFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.photoBox:nth-child(2) {
+    margin: 0 2.5%;
+}
 
 
 

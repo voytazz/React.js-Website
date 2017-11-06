@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><YourPassion /></div>
         }
     }
 
@@ -32,7 +32,27 @@ document.addEventListener('DOMContentLoaded', function(){
     class PictureBoxes extends React.Component {
         render() {
             return (<div className="pictureSection"><h2>Pictures worth seeing</h2>
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><h2 className="photoBoxText">Pressure</h2></div></div>)
+            <div className="photoBoxFlex">
+            
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
+            </div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
+            </div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
+            </div> 
+            </div>
+            </div>)
+        }
+    }
+    
+    class YourPassion extends React.Component {
+        render() {
+            return (<div className="headerMenu">
+            <div className="hamburgerMenu"><div className="hamburger"></div>
+                <div className="hamburger"></div><div className="hamburger"></div></div>
+            <div className="headerMenuText"><div className="headerArrow"></div><span>PAINT THE POWER</span></div>
+            
+            </div>)
         }
     }
     
