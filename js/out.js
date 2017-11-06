@@ -9691,7 +9691,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return _react2.default.createElement(
                     'div',
                     { className: 'headerBackground' },
-                    _react2.default.createElement('img', { src: '../images/paintPixture.png' })
+                    _react2.default.createElement('img', { src: './images/paintPixture.png' })
                 );
             }
         }]);

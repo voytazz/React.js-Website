@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class HeaderBackground extends React.Component {
         render() {
-            return (<div className="headerBackground"><img src="../images/paintPixture.png" /></div>)
+            return (<div className="headerBackground"><img src="./images/paintPixture.png" /></div>)
         }
     }
     
