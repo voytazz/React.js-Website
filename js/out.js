@@ -9691,7 +9691,43 @@ document.addEventListener('DOMContentLoaded', function () {
                 return _react2.default.createElement(
                     'div',
                     { className: 'headerBackground' },
-                    _react2.default.createElement('img', { src: './images/paintPixture.png' })
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'envelope' },
+                        _react2.default.createElement('img', { src: './images/envelope.png' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'paintPixtureFlex' },
+                        _react2.default.createElement('img', { src: './images/paintPixture.png' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'headerBackgroundFlex' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'headerBackgroundText' },
+                            _react2.default.createElement(
+                                'h2',
+                                null,
+                                'Humble Beginings'
+                            ),
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, similique illum excepturi perferendis commodi explicabo corporis placeat.'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'headerBackgroundDate' },
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                'April 19th 2016'
+                            )
+                        )
+                    )
                 );
             }
         }]);

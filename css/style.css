@@ -20,6 +20,19 @@
   align-items: center;
 }
 
+.hamburgerMenu {
+  width: 40%;
+  margin: 50px 0;
+}
+
+.hamburgerMenu .hamburger {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
 .headerFlex {
   display: flex;
 }
@@ -43,20 +56,57 @@
   width: 95%;
   height: 100vh;
   background: url(../images/headerBackground.png) no-repeat center/cover;
+}
+
+.headerBackground .headerBackgroundText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 40%;
+  margin: 50px;
+  line-height: 30px;
+}
+
+.headerBackground .headerBackgroundText h2 {
+  margin: 20px 0;
+}
+
+.headerBackgroundFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerBackgroundDate {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 50px;
+  line-height: 30px;
+}
+
+.headerBackgroundDate p {
+  margin-top: 20px;
+}
+
+.envelope {
+  height: 5%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px;
+  align-items: baseline;
+}
+
+.paintPixtureFlex {
+  width: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hamburgerMenu {
-  width: 40%;
-  margin: 50px 0;
-}
-
-.hamburgerMenu .hamburger {
-  width: 100%;
-  height: 4px;
-  background-color: white;
-  margin: 6px 0;
-  transition: 0.4s;
+.paintPixtureFlex img {
+  width: 30%;
+  height: 50%;
 }
