@@ -9631,7 +9631,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(HeaderBackground, null)
                     ),
                     _react2.default.createElement(PictureBoxes, null),
-                    _react2.default.createElement(YourPassion, null)
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'headerFlex' },
+                        _react2.default.createElement(YourPassionMenu, null),
+                        _react2.default.createElement(YourPassion, null)
+                    )
                 );
             }
         }]);
@@ -9840,8 +9845,40 @@ document.addEventListener('DOMContentLoaded', function () {
         return PictureBoxes;
     }(_react2.default.Component);
 
-    var YourPassion = function (_React$Component5) {
-        _inherits(YourPassion, _React$Component5);
+    var YourPassionMenu = function (_React$Component5) {
+        _inherits(YourPassionMenu, _React$Component5);
+
+        function YourPassionMenu() {
+            _classCallCheck(this, YourPassionMenu);
+
+            return _possibleConstructorReturn(this, (YourPassionMenu.__proto__ || Object.getPrototypeOf(YourPassionMenu)).apply(this, arguments));
+        }
+
+        _createClass(YourPassionMenu, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'headerMenu' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'passionMenuText' },
+                        _react2.default.createElement('div', { className: 'headerArrow' }),
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            'PAINT THE POWER'
+                        )
+                    )
+                );
+            }
+        }]);
+
+        return YourPassionMenu;
+    }(_react2.default.Component);
+
+    var YourPassion = function (_React$Component6) {
+        _inherits(YourPassion, _React$Component6);
 
         function YourPassion() {
             _classCallCheck(this, YourPassion);
@@ -9854,23 +9891,11 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: 'headerMenu' },
+                    { className: 'passionBackground' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'hamburgerMenu' },
-                        _react2.default.createElement('div', { className: 'hamburger' }),
-                        _react2.default.createElement('div', { className: 'hamburger' }),
-                        _react2.default.createElement('div', { className: 'hamburger' })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'headerMenuText' },
-                        _react2.default.createElement('div', { className: 'headerArrow' }),
-                        _react2.default.createElement(
-                            'span',
-                            null,
-                            'PAINT THE POWER'
-                        )
+                        { className: 'passionPixtureFlex' },
+                        _react2.default.createElement('img', { src: './images/its-your-passion.png' })
                     )
                 );
             }
@@ -9879,8 +9904,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return YourPassion;
     }(_react2.default.Component);
 
-    var App = function (_React$Component6) {
-        _inherits(App, _React$Component6);
+    var App = function (_React$Component7) {
+        _inherits(App, _React$Component7);
 
         function App() {
             _classCallCheck(this, App);

@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><YourPassion /></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div></div>
         }
     }
 
@@ -45,13 +45,24 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
     
-    class YourPassion extends React.Component {
+    
+      class YourPassionMenu extends React.Component {
         render() {
             return (<div className="headerMenu">
-            <div className="hamburgerMenu"><div className="hamburger"></div>
-                <div className="hamburger"></div><div className="hamburger"></div></div>
-            <div className="headerMenuText"><div className="headerArrow"></div><span>PAINT THE POWER</span></div>
+           
+            <div className="passionMenuText"><div className="headerArrow"></div><span>PAINT THE POWER</span></div>
             
+            </div>
+                )
+        }
+    }
+    
+    
+    
+    class YourPassion extends React.Component {
+        render() {
+            return (<div className="passionBackground"><div className="passionPixtureFlex"><img src="./images/its-your-passion.png" /></div>
+        
             </div>)
         }
     }
