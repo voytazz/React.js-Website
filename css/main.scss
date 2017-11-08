@@ -251,6 +251,50 @@
     align-items: center;
 }
 
+.mainTextFlex {
+    display:flex;
+}
+.mainMenuText {
+     width:500px;
+    
+    transform: rotate(270deg);
+    color: white;
+    
+   
+}
+
+.mainFlex {
+    width:100%;
+    display:flex;
+}
+
+.mainMenu {
+    width: 5%;
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainTextFirst {
+    display:flex;
+    justify-content: center;
+    width:50%;
+    color:white;
+    padding:5%;
+    flex-direction: column;
+}
+
+.mainTextSecond {
+    width:45%;
+    color:white;
+    display:flex;
+    align-items: center;
+    padding:5%;
+}
+
 
 
 

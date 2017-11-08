@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /></div>
         }
     }
 
@@ -56,6 +56,29 @@ document.addEventListener('DOMContentLoaded', function(){
             
             </div>
                 )
+        }
+    }
+    
+    class MainText extends  React.Component {
+        render() {
+            return (<div className="mainFlex">
+            <div className="mainMenu">
+           
+            <div className="mainMenuText"> 24th 
+                January 2016
+            </div>
+        
+            
+            
+            </div>
+                           <div className="mainTextFirst"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit sunt odio inventore ex tempore tempora ipsa tenetur aspernatur, saepe officiis harum ducimus sint nemo quaerat illo a facilis nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione reprehenderit minima sint. Mollitia aliquam asperiores delectus, perferendis beatae iusto voluptate quam deleniti. Corporis quisquam fugiat a dolores distinctio placeat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo et molestias quisquam nihil, voluptatum tempora labore? Cumque maiores iste distinctio? Ratione nemo ducimus quos maiores dolores cupiditate ipsam, iusto consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt qui quo saepe alias delectus ratione? Consectetur, impedit, quasi dolore illo fuga sapiente officiis maxime quis unde quo aliquam tempore autem.</p>
+            <br /><br />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nam praesentium nisi vel iusto eveniet placeat veniam suscipit molestiae eaque rerum eos expedita minus labore, asperiores. Voluptatibus perferendis, corrupti cum.</p></div>
+              <div className="mainTextSecond">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit sunt odio inventore ex tempore tempora ipsa tenetur aspernatur, saepe officiis harum ducimus sint nemo quaerat illo a facilis nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione reprehenderit minima sint. Mollitia aliquam asperiores delectus, perferendis beatae iusto voluptate quam deleniti. Corporis quisquam fugiat a dolores distinctio placeat!
+            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nam praesentium nisi vel iusto eveniet placeat veniam suscipit molestiae eaque rerum eos expedita minus labore, asperiores. Voluptatibus perferendis, corrupti cum.</div>
+     </div>
+            )
         }
     }
     

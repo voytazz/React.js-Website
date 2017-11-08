@@ -9636,7 +9636,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { className: 'headerFlex' },
                         _react2.default.createElement(YourPassionMenu, null),
                         _react2.default.createElement(YourPassion, null)
-                    )
+                    ),
+                    _react2.default.createElement(MainText, null)
                 );
             }
         }]);
@@ -9893,8 +9894,60 @@ document.addEventListener('DOMContentLoaded', function () {
         return YourPassionMenu;
     }(_react2.default.Component);
 
-    var YourPassion = function (_React$Component6) {
-        _inherits(YourPassion, _React$Component6);
+    var MainText = function (_React$Component6) {
+        _inherits(MainText, _React$Component6);
+
+        function MainText() {
+            _classCallCheck(this, MainText);
+
+            return _possibleConstructorReturn(this, (MainText.__proto__ || Object.getPrototypeOf(MainText)).apply(this, arguments));
+        }
+
+        _createClass(MainText, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'mainFlex' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'mainMenu' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mainMenuText' },
+                            ' 24th January 2016'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'mainTextFirst' },
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit sunt odio inventore ex tempore tempora ipsa tenetur aspernatur, saepe officiis harum ducimus sint nemo quaerat illo a facilis nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione reprehenderit minima sint. Mollitia aliquam asperiores delectus, perferendis beatae iusto voluptate quam deleniti. Corporis quisquam fugiat a dolores distinctio placeat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo et molestias quisquam nihil, voluptatum tempora labore? Cumque maiores iste distinctio? Ratione nemo ducimus quos maiores dolores cupiditate ipsam, iusto consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt qui quo saepe alias delectus ratione? Consectetur, impedit, quasi dolore illo fuga sapiente officiis maxime quis unde quo aliquam tempore autem.'
+                        ),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement(
+                            'p',
+                            null,
+                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nam praesentium nisi vel iusto eveniet placeat veniam suscipit molestiae eaque rerum eos expedita minus labore, asperiores. Voluptatibus perferendis, corrupti cum.'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'mainTextSecond' },
+                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odit sunt odio inventore ex tempore tempora ipsa tenetur aspernatur, saepe officiis harum ducimus sint nemo quaerat illo a facilis nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ratione reprehenderit minima sint. Mollitia aliquam asperiores delectus, perferendis beatae iusto voluptate quam deleniti. Corporis quisquam fugiat a dolores distinctio placeat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nam praesentium nisi vel iusto eveniet placeat veniam suscipit molestiae eaque rerum eos expedita minus labore, asperiores. Voluptatibus perferendis, corrupti cum.'
+                    )
+                );
+            }
+        }]);
+
+        return MainText;
+    }(_react2.default.Component);
+
+    var YourPassion = function (_React$Component7) {
+        _inherits(YourPassion, _React$Component7);
 
         function YourPassion() {
             _classCallCheck(this, YourPassion);
@@ -9920,8 +9973,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return YourPassion;
     }(_react2.default.Component);
 
-    var App = function (_React$Component7) {
-        _inherits(App, _React$Component7);
+    var App = function (_React$Component8) {
+        _inherits(App, _React$Component8);
 
         function App() {
             _classCallCheck(this, App);
