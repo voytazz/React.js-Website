@@ -129,7 +129,7 @@
 
 .boxPhoto {
   width: 100%;
-  height: 50%;
+  height: 45%;
 }
 
 .boxPhoto img {
@@ -137,14 +137,25 @@
   height: 100%;
 }
 
+.photoBoxText {
+  width: 100%;
+  height: 35%;
+}
+
 .photoBoxText h2 {
   color: black;
 }
 
 .photoBoxText span {
-  width: 60%;
+  width: 20%;
   color: gray;
-  margin: 0 5%;
+}
+
+.photoBoxFooter {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .photoBoxFlex {
@@ -191,7 +202,7 @@
 .passionBackground {
   width: 95%;
   height: 100vh;
-  background: url(../images/second-background.png);
+  background: url(../images/second-background.png) no-repeat center/cover;
 }
 
 .passionMenuText {

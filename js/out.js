@@ -9790,8 +9790,16 @@ document.addEventListener('DOMContentLoaded', function () {
                                     'span',
                                     null,
                                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                ),
-                                _react2.default.createElement('hr', null)
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
+                                )
                             )
                         ),
                         _react2.default.createElement(
@@ -9808,14 +9816,13 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'h2',
                                     null,
-                                    'Pressure'
+                                    'Decayed'
                                 ),
                                 _react2.default.createElement(
                                     'span',
                                     null,
                                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                ),
-                                _react2.default.createElement('hr', null)
+                                )
                             )
                         ),
                         _react2.default.createElement(
@@ -9832,14 +9839,13 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'h2',
                                     null,
-                                    'Pressure'
+                                    'Bliss Texture'
                                 ),
                                 _react2.default.createElement(
                                     'span',
                                     null,
                                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                ),
-                                _react2.default.createElement('hr', null)
+                                )
                             )
                         ),
                         _react2.default.createElement(
