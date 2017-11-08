@@ -169,10 +169,18 @@
 }
 
 .leftSliderArrow {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border-left: 3px solid white;
   border-bottom: 3px solid white;
+  transform: rotate(45deg);
+}
+
+.rightSliderArrow {
+  width: 25px;
+  height: 25px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
   transform: rotate(45deg);
 }
 
