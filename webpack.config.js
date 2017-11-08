@@ -12,7 +12,7 @@ module.exports = {
     devServer: {
         inline: true,
         contentBase: './',
-        port: 3003,
+        port: 3001,
         filename: "./js/out.js",
         filename: "./css/style.css"
         

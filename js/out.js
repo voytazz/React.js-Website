@@ -9767,27 +9767,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { className: 'photoBoxFlex' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'photoBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/first-box.png' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxText' },
-                                _react2.default.createElement(
-                                    'h2',
-                                    null,
-                                    'Pressure'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                ),
-                                _react2.default.createElement('hr', null)
-                            )
+                            { className: 'leftArrow' },
+                            _react2.default.createElement('div', { className: 'leftSliderArrow' })
                         ),
                         _react2.default.createElement(
                             'div',
@@ -9819,7 +9800,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                                _react2.default.createElement('img', { src: './images/second-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',
@@ -9836,6 +9817,35 @@ document.addEventListener('DOMContentLoaded', function () {
                                 ),
                                 _react2.default.createElement('hr', null)
                             )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/third-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                ),
+                                _react2.default.createElement('hr', null)
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'rightArrow' },
+                            _react2.default.createElement('div', { className: 'rightSliderArrow' })
                         )
                     )
                 );

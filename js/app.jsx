@@ -33,13 +33,14 @@ document.addEventListener('DOMContentLoaded', function(){
         render() {
             return (<div className="pictureSection"><h2>Pictures worth seeing</h2>
             <div className="photoBoxFlex">
-            
+            <div className="leftArrow"><div className="leftSliderArrow"></div></div>
             <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
             </div>
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/second-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
             </div>
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
-            </div> 
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/third-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span><hr /></div>
+            </div>
+            <div className="rightArrow"><div className="rightSliderArrow"></div></div> 
             </div>
             </div>)
         }
