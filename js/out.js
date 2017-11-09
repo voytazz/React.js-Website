@@ -9915,7 +9915,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(
                             'div',
                             { className: 'mainMenuText' },
-                            ' 24th January 2016'
+                            ' ',
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                '24th January 2016'
+                            )
                         )
                     ),
                     _react2.default.createElement(

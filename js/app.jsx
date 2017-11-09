@@ -64,8 +64,8 @@ document.addEventListener('DOMContentLoaded', function(){
             return (<div className="mainFlex">
             <div className="mainMenu">
            
-            <div className="mainMenuText"> 24th 
-                January 2016
+            <div className="mainMenuText"> <span>24th 
+                January 2016</span>
             </div>
         
             
