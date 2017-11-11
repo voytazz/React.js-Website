@@ -104,7 +104,12 @@ document.addEventListener('DOMContentLoaded', function(){
         render() {
             return (<div className="secondPictureBoxes">
                 <div className="secondPictureMenu">January 2016</div>
-                
+                <div className="pictureBox">
+                    <div className="secondBox">a</div>
+                    <div className="secondBox">bc</div>
+                    <div className="secondBox">c</div>
+                    <div className="secondBox">d</div>
+                </div>
             </div>)
         }
     }

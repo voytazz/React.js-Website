@@ -302,4 +302,17 @@
 .secondPictureMenu {
   width: 5%;
   height: 60vh;
+  color: white;
+}
+
+.pictureBox {
+  width: 95%;
+  height: 60vh;
+  display: flex;
+}
+
+.secondBox {
+  width: 25%;
+  height: 100%;
+  padding: 5%;
 }

@@ -10022,6 +10022,30 @@ document.addEventListener('DOMContentLoaded', function () {
                         'div',
                         { className: 'secondPictureMenu' },
                         'January 2016'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'pictureBox' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'secondBox' },
+                            'a'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'secondBox' },
+                            'bc'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'secondBox' },
+                            'c'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'secondBox' },
+                            'd'
+                        )
                     )
                 );
             }
