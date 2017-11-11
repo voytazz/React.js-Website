@@ -9637,7 +9637,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(YourPassionMenu, null),
                         _react2.default.createElement(YourPassion, null)
                     ),
-                    _react2.default.createElement(MainText, null)
+                    _react2.default.createElement(MainText, null),
+                    _react2.default.createElement(ProductionBoxes, null),
+                    _react2.default.createElement(SecondPictureBoxes, null)
                 );
             }
         }]);
@@ -9978,8 +9980,58 @@ document.addEventListener('DOMContentLoaded', function () {
         return YourPassion;
     }(_react2.default.Component);
 
-    var App = function (_React$Component8) {
-        _inherits(App, _React$Component8);
+    var ProductionBoxes = function (_React$Component8) {
+        _inherits(ProductionBoxes, _React$Component8);
+
+        function ProductionBoxes() {
+            _classCallCheck(this, ProductionBoxes);
+
+            return _possibleConstructorReturn(this, (ProductionBoxes.__proto__ || Object.getPrototypeOf(ProductionBoxes)).apply(this, arguments));
+        }
+
+        _createClass(ProductionBoxes, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'production' },
+                    _react2.default.createElement('div', { className: 'productionMenu' })
+                );
+            }
+        }]);
+
+        return ProductionBoxes;
+    }(_react2.default.Component);
+
+    var SecondPictureBoxes = function (_React$Component9) {
+        _inherits(SecondPictureBoxes, _React$Component9);
+
+        function SecondPictureBoxes() {
+            _classCallCheck(this, SecondPictureBoxes);
+
+            return _possibleConstructorReturn(this, (SecondPictureBoxes.__proto__ || Object.getPrototypeOf(SecondPictureBoxes)).apply(this, arguments));
+        }
+
+        _createClass(SecondPictureBoxes, [{
+            key: 'render',
+            value: function render() {
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'secondPictureBoxes' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'secondPictureMenu' },
+                        'January 2016'
+                    )
+                );
+            }
+        }]);
+
+        return SecondPictureBoxes;
+    }(_react2.default.Component);
+
+    var App = function (_React$Component10) {
+        _inherits(App, _React$Component10);
 
         function App() {
             _classCallCheck(this, App);

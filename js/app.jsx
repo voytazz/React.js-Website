@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /><ProductionBoxes /><SecondPictureBoxes /></div>
         }
     }
 
@@ -91,6 +91,25 @@ document.addEventListener('DOMContentLoaded', function(){
             </div>)
         }
     }
+    
+    class ProductionBoxes extends React.Component {
+        render() {
+            return (<div className="production">
+                <div className="productionMenu"></div>
+            </div>)
+        }
+    }
+    
+    class SecondPictureBoxes extends React.Component {
+        render() {
+            return (<div className="secondPictureBoxes">
+                <div className="secondPictureMenu">January 2016</div>
+                
+            </div>)
+        }
+    }
+    
+    
     
     class App extends React.Component {
         render() {

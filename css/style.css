@@ -282,3 +282,24 @@
   align-items: center;
   padding: 0 5%;
 }
+
+.production {
+  height: 60vh;
+  width: 100%;
+}
+
+.productionMenu {
+  width: 5%;
+  height: 100%;
+}
+
+.secondPictureBoxes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.secondPictureMenu {
+  width: 5%;
+  height: 60vh;
+}
