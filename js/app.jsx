@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /><ProductionBoxes /><SecondPictureBoxes /></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /><ProductionBoxes /><SecondPictureBoxes /><JordanTextures /></div>
         }
     }
 
@@ -117,14 +117,33 @@ document.addEventListener('DOMContentLoaded', function(){
     class SecondPictureBoxes extends React.Component {
         render() {
             return (<div className="secondPictureBoxes">
-                <div className="secondPictureMenu"><span>January 2016</span></div>
+                <div className="secondPictureMenu"><div className="jan">January 2016</div></div>
                 <div className="pictureBox">
-                    <div className="secondBox">a</div>
-                    <div className="secondBox">bc</div>
-                    <div className="secondBox">c</div>
-                    <div className="secondBox">d</div>
+                    <div className="secondBox"><h2>Start-Up Resources</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, itaque natus reiciendis. Officiis asperiores, quae labore esse aliquam deserunt! Dolorem recusandae quam in nulla autem amet nesciunt vitae hic nemo.</p></div>
+                    <div className="secondBox"><h2>Training & Funding</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, itaque natus reiciendis. Officiis asperiores, quae labore esse aliquam deserunt! Dolorem recusandae quam in nulla autem amet nesciunt vitae hic nemo.</p></div>
+                    <div className="secondBox"><h2>Connect</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, itaque natus reiciendis. Officiis asperiores, quae labore esse aliquam deserunt! Dolorem recusandae quam in nulla autem amet nesciunt vitae hic nemo.</p></div>
+                    <div className="secondBox"><h2>Communicate</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, itaque natus reiciendis. Officiis asperiores, quae labore esse aliquam deserunt! Dolorem recusandae quam in nulla autem amet nesciunt vitae hic nemo.</p></div>
                 </div>
             </div>)
+        }
+    }
+    
+    class JordanTextures extends React.Component {
+        render() {
+            return (
+                
+                <div className="texturesBackground">
+                
+                <div className="texturesText"><h3>Textures By</h3><h2>Jordan Hetzer</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quo atque, ipsum laborum.</span></div>
+                
+                </div>
+            )
+        }
+    }
+    
+    class Footer extends React.Component {
+        render() {
+            return ()
         }
     }
     

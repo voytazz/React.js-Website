@@ -295,6 +295,7 @@
     color:white;
     padding:5%;
     flex-direction: column;
+    text-align: justify;
 }
 
 .mainTextSecond {
@@ -304,16 +305,7 @@
     display:flex;
     align-items: center;
     padding:0 5%;
-}
-
-.production {
-    height:60vh;
-    width:100%;
-}
-
-.productionMenu {
-    width:5%;
-    height:100%;
+    text-align: justify;
 }
 
 .secondPictureBoxes {
@@ -324,15 +316,16 @@
 
 .secondPictureMenu {
     width:5%;
-    height:60vh;
+    height:50vh;
     color:white;
     display:flex;
     justify-content: center;
     align-items: center;
-    span {
-        width: 400px;
+    .jan {
+        width: 200px;
+       
     transform: rotate(270deg);
-    margin: 200px 0;
+    
     color: white;
     display: flex;
     flex-direction: row;
@@ -341,16 +334,42 @@
 
 .pictureBox {
     width:95%;
-    height:60vh;
+    height:50vh;
     display:flex;
 }
 
 .secondBox {
     width:25%;
     height:100%;
-    padding:5%;
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    h2 {
+        margin-bottom: 10%;
+    }
 }
 
+.texturesBackground {
+    width:100%;
+    height:80vh;
+    background: url(../images/third-background.png);
+}
+
+.texturesText {
+    color:white;
+    h3 {
+        font-size:2rem;
+    }
+    
+    h2 {
+        font-size:3rem;
+    }
+    span {
+        width:10%;
+    }
+}
 
 
 
