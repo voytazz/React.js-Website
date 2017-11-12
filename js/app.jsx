@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainContent extends React.Component {
         render() {
-            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /><ProductionBoxes /><SecondPictureBoxes /><JordanTextures /></div>
+            return <div className="mainBackground"><div className="headerFlex"><HeaderMenu /><HeaderBackground /></div><PictureBoxes /><div className="headerFlex"><YourPassionMenu /><YourPassion /></div><MainText /><ProductionBoxes /><SecondPictureBoxes /><JordanTextures /><MainFooter /></div>
         }
     }
 
@@ -141,9 +141,9 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
     
-    class Footer extends React.Component {
+    class MainFooter extends React.Component {
         render() {
-            return ()
+            return (<div className="footerBackground"></div>)
         }
     }
     
