@@ -94,8 +94,22 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class ProductionBoxes extends React.Component {
         render() {
-            return (<div className="production">
-                <div className="productionMenu"></div>
+            return (<div className="pictureSection"><h2>Pictures worth seeing</h2>
+            
+            <div className="photoBoxFlex">
+            
+               
+        
+            
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/first-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
+            <div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
+            </div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/second-box.png" /></div><div className="photoBoxText"><h2>Decayed</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
+            </div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/third-box.png" /></div><div className="photoBoxText"><h2>Bliss Texture</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
+            </div>
+            <div className="rightArrow"><div className="rightSliderArrow"></div></div> 
+            </div>
             </div>)
         }
     }
@@ -103,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function(){
     class SecondPictureBoxes extends React.Component {
         render() {
             return (<div className="secondPictureBoxes">
-                <div className="secondPictureMenu">January 2016</div>
+                <div className="secondPictureMenu"><span>January 2016</span></div>
                 <div className="pictureBox">
                     <div className="secondBox">a</div>
                     <div className="secondBox">bc</div>

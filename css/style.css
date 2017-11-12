@@ -6,7 +6,7 @@
 
 .mainBackground {
   width: 100%;
-  height: 650vh;
+  height: 100%;
   color: blue;
   background: url(../images/main-background.png) no-repeat center/cover;
 }
@@ -295,7 +295,6 @@
 
 .secondPictureBoxes {
   width: 100%;
-  height: 100%;
   display: flex;
 }
 
@@ -303,6 +302,18 @@
   width: 5%;
   height: 60vh;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondPictureMenu span {
+  width: 400px;
+  transform: rotate(270deg);
+  margin: 200px 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .pictureBox {

@@ -9994,8 +9994,99 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: 'production' },
-                    _react2.default.createElement('div', { className: 'productionMenu' })
+                    { className: 'pictureSection' },
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'Pictures worth seeing'
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'photoBoxFlex' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/second-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Decayed'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/third-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Bliss Texture'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'rightArrow' },
+                            _react2.default.createElement('div', { className: 'rightSliderArrow' })
+                        )
+                    )
                 );
             }
         }]);
@@ -10021,7 +10112,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     _react2.default.createElement(
                         'div',
                         { className: 'secondPictureMenu' },
-                        'January 2016'
+                        _react2.default.createElement(
+                            'span',
+                            null,
+                            'January 2016'
+                        )
                     ),
                     _react2.default.createElement(
                         'div',
