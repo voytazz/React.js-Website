@@ -10240,7 +10240,100 @@ document.addEventListener('DOMContentLoaded', function () {
         _createClass(MainFooter, [{
             key: 'render',
             value: function render() {
-                return _react2.default.createElement('div', { className: 'footerBackground' });
+                return _react2.default.createElement(
+                    'div',
+                    { className: 'footerBackground' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'footerContent' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'footerAbout' },
+                            _react2.default.createElement(
+                                'h4',
+                                null,
+                                'About'
+                            ),
+                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit delectus ad quidem, ex sed laborum, optio corporis eveniet deleniti blanditiis minus quos pariatur vero eum, omnis, magni voluptatibus a. Quos!'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'footerHistory' },
+                            _react2.default.createElement(
+                                'h4',
+                                null,
+                                'History'
+                            ),
+                            _react2.default.createElement(
+                                'ul',
+                                null,
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Resources'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Downloads & Updates'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Manuals'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Tech Specs'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'System status'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Accessibility'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'footerContact' },
+                            _react2.default.createElement(
+                                'h4',
+                                null,
+                                'Contact'
+                            ),
+                            _react2.default.createElement(
+                                'ul',
+                                null,
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Apple Store (Education Institutions)'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    '1300-551-927'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    'Apple Store (Small Business)'
+                                ),
+                                _react2.default.createElement(
+                                    'li',
+                                    null,
+                                    '1300-369-095'
+                                )
+                            )
+                        )
+                    )
+                );
             }
         }]);
 

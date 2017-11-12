@@ -376,6 +376,45 @@
     height:70vh;
 }
 
+.footerContent {
+    margin:5%;
+    width:60%;
+    display:flex;
+    h4 {
+        font-size:1.5rem;
+        margin-bottom:10%;
+    }
+}
+
+.footerAbout {
+    padding:5%;
+    color:white;
+    width:40%;
+}
+
+.footerHistory {
+    color:white;
+    width:30%;
+    padding:5%;
+    ul {
+    list-style-type: none;
+        li {
+            margin-bottom:5%;
+        }
+    }
+}
+
+.footerContact {
+    color:white;
+    width:30%;
+    padding:5%;
+    ul {
+    list-style-type: none;
+           li {
+            margin-bottom:5%;
+        }
+        }
+}
 
 
 

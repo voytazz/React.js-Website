@@ -143,7 +143,34 @@ document.addEventListener('DOMContentLoaded', function(){
     
     class MainFooter extends React.Component {
         render() {
-            return (<div className="footerBackground"></div>)
+            return (
+                <div className="footerBackground">
+                    <div className="footerContent">
+                        <div className="footerAbout"><h4>About</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit delectus ad quidem, ex sed laborum, optio corporis eveniet deleniti blanditiis minus quos pariatur vero eum, omnis, magni voluptatibus a. Quos!</div>
+                        <div className="footerHistory">
+                           <h4>History</h4>
+                            <ul>
+                                <li>Resources</li>
+                                <li>Downloads & Updates</li>
+                                <li>Manuals</li>
+                                <li>Tech Specs</li>
+                                <li>System status</li>
+                                <li>Accessibility</li>
+                            </ul>
+                        </div>
+                        <div className="footerContact"><h4>Contact</h4>
+                        <ul>
+                           <li>Apple Store (Education Institutions)</li>
+                           <li>1300-551-927</li>
+                           <li>Apple Store (Small Business)</li>
+                           <li>1300-369-095</li>
+                        </ul>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            )
         }
     }
     
