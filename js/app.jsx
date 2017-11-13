@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function(){
             </div>
         
             
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/five-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/fifth-box.png" /></div><div className="photoBoxText"><h2>Pressure</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
             <div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
             </div>
             <div className="photoBox"><div className="boxPhoto"><img src="./images/six-box.png" /></div><div className="photoBoxText"><h2>Decayed</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>

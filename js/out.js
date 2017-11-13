@@ -10070,7 +10070,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/five-box.png' })
+                                _react2.default.createElement('img', { src: './images/fifth-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',
