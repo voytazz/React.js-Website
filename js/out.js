@@ -9772,11 +9772,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { className: 'photoBoxFlex' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'leftArrow' },
-                            _react2.default.createElement('div', { className: 'leftSliderArrow' })
-                        ),
-                        _react2.default.createElement(
-                            'div',
                             { className: 'photoBox' },
                             _react2.default.createElement(
                                 'div',
@@ -9821,6 +9816,38 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'h2',
                                     null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/third-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
                                     'Decayed'
                                 ),
                                 _react2.default.createElement(
@@ -9836,7 +9863,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/third-box.png' })
+                                _react2.default.createElement('img', { src: './images/four-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',
@@ -10011,7 +10038,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/first-box.png' })
+                                _react2.default.createElement('img', { src: './images/four-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',
@@ -10043,7 +10070,39 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/second-box.png' })
+                                _react2.default.createElement('img', { src: './images/five-box.png' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxText' },
+                                _react2.default.createElement(
+                                    'h2',
+                                    null,
+                                    'Pressure'
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'photoBox' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'boxPhoto' },
+                                _react2.default.createElement('img', { src: './images/six-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',
@@ -10066,7 +10125,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             _react2.default.createElement(
                                 'div',
                                 { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/third-box.png' })
+                                _react2.default.createElement('img', { src: './images/seven-box.png' })
                             ),
                             _react2.default.createElement(
                                 'div',

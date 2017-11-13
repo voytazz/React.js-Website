@@ -163,14 +163,6 @@
   margin: 0 5%;
 }
 
-.leftArrow {
-  width: 12.5%;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .rightArrow {
   width: 12.5%;
   height: 60vh;
@@ -179,24 +171,12 @@
   align-items: center;
 }
 
-.leftSliderArrow {
-  width: 25px;
-  height: 25px;
-  border-left: 3px solid white;
-  border-bottom: 3px solid white;
-  transform: rotate(45deg);
-}
-
 .rightSliderArrow {
   width: 25px;
   height: 25px;
   border-top: 3px solid white;
   border-right: 3px solid white;
   transform: rotate(45deg);
-}
-
-.photoBox {
-  margin: 0 2%;
 }
 
 .passionBackground {
@@ -332,10 +312,15 @@
   height: 80vh;
   background: url(../images/third-background.png) no-repeat;
   background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .texturesText {
   color: white;
+  margin-left: 200px;
 }
 
 .texturesText h3 {
@@ -344,10 +329,6 @@
 
 .texturesText h2 {
   font-size: 3rem;
-}
-
-.texturesText span {
-  width: 10%;
 }
 
 .footerBackground {
