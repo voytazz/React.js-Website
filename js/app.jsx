@@ -89,6 +89,7 @@ document.addEventListener('DOMContentLoaded', function(){
     class YourPassion extends React.Component {
         render() {
             return (<div className="passionBackground"><div className="passionPixtureFlex"><img src="./images/its-your-passion.png" /></div>
+            <div className="passionText"><div className="passionBackgroundText"><h2>Texture makes art</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, similique illum excepturi perferendis commodi explicabo corporis placeat.</span></div><div className="headerBackgroundDate"><p>April 19th 2016</p></div></div>
         
             </div>)
         }

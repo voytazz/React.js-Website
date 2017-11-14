@@ -276,11 +276,31 @@
 
 .passionPixtureFlex {
     width:100%;
-    height: 80%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.passionText {
+     width:100%;
+    
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+  .passionBackgroundText {
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color:white;
+        width:40%;
+        margin:50px;
+        
+        
+    }
 
 .mainTextFlex {
     display:flex;

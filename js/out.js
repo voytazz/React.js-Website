@@ -10019,6 +10019,33 @@ document.addEventListener('DOMContentLoaded', function () {
                         'div',
                         { className: 'passionPixtureFlex' },
                         _react2.default.createElement('img', { src: './images/its-your-passion.png' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'passionText' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'passionBackgroundText' },
+                            _react2.default.createElement(
+                                'h2',
+                                null,
+                                'Texture makes art'
+                            ),
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, similique illum excepturi perferendis commodi explicabo corporis placeat.'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'headerBackgroundDate' },
+                            _react2.default.createElement(
+                                'p',
+                                null,
+                                'April 19th 2016'
+                            )
+                        )
                     )
                 );
             }
