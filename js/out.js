@@ -9764,7 +9764,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     { className: 'pictureSection' },
                     _react2.default.createElement(
                         'h2',
-                        null,
+                        { className: 'pictureTitle' },
                         'Pictures worth seeing'
                     ),
                     _react2.default.createElement(
@@ -9816,7 +9816,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'h2',
                                     null,
-                                    'Pressure'
+                                    'Texture'
                                 ),
                                 _react2.default.createElement(
                                     'span',
@@ -9855,6 +9855,15 @@ document.addEventListener('DOMContentLoaded', function () {
                                     null,
                                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
                                 )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
+                                )
                             )
                         ),
                         _react2.default.createElement(
@@ -9877,6 +9886,15 @@ document.addEventListener('DOMContentLoaded', function () {
                                     'span',
                                     null,
                                     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'photoBoxFooter' },
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'photoBoxComments' },
+                                    '374 comments'
                                 )
                             )
                         ),
@@ -10028,125 +10046,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         'h2',
                         null,
                         'Pictures worth seeing'
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'photoBoxFlex' },
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'photoBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/four-box.png' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxText' },
-                                _react2.default.createElement(
-                                    'h2',
-                                    null,
-                                    'Pressure'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxFooter' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'photoBoxComments' },
-                                    '374 comments'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'photoBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/fifth-box.png' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxText' },
-                                _react2.default.createElement(
-                                    'h2',
-                                    null,
-                                    'Pressure'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxFooter' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'photoBoxComments' },
-                                    '374 comments'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'photoBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/six-box.png' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxText' },
-                                _react2.default.createElement(
-                                    'h2',
-                                    null,
-                                    'Decayed'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'photoBox' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'boxPhoto' },
-                                _react2.default.createElement('img', { src: './images/seven-box.png' })
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'photoBoxText' },
-                                _react2.default.createElement(
-                                    'h2',
-                                    null,
-                                    'Bliss Texture'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    null,
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'rightArrow' },
-                            _react2.default.createElement('div', { className: 'rightSliderArrow' })
-                        )
                     )
                 );
             }
