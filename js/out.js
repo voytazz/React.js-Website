@@ -9925,7 +9925,7 @@ document.addEventListener('DOMContentLoaded', function () {
             value: function render() {
                 return _react2.default.createElement(
                     'div',
-                    { className: 'headerMenu' },
+                    { className: 'passionMenu' },
                     _react2.default.createElement(
                         'div',
                         { className: 'passionMenuText' },

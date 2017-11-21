@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
       class YourPassionMenu extends React.Component {
         render() {
-            return (<div className="headerMenu">
+            return (<div className="passionMenu">
            
             <div className="passionMenuText"><div className="headerArrow"></div><span>PAINT THE POWER</span></div>
             
