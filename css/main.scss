@@ -255,14 +255,12 @@
 .passionMenuText {
     width: 400px;
     transform: rotate(270deg);
-    margin: 100px 0;
+    
     color: white;
     display: flex;
     flex-direction: row;
-    
-    
 
-       .headerArrow {
+    .headerArrow {
         width: 20px;
         height: 20px;
         border-left: 2px solid white;
@@ -270,9 +268,13 @@
         transform: rotate(45deg);
         margin-left:50px;
         margin-right:100px;
+        position: relative;
+        animation: arrowMove 1s infinite;
     }
 
 }
+
+
 
 .passionPixtureFlex {
     width:100%;
@@ -284,7 +286,7 @@
 
 .passionText {
      width:100%;
-    
+    line-height: 30px;
     height: 30%;
     display: flex;
     justify-content: space-between;
@@ -298,7 +300,9 @@
         color:white;
         width:40%;
         margin:50px;
-        
+      h2 {
+          margin: 20px 0;
+      }
         
     }
 
