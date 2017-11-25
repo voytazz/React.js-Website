@@ -206,12 +206,22 @@
   justify-content: space-between;
   align-items: center;
   color: black;
-  background-color: #d1d1d3;
+  background-color: #ffffff;
 }
 
 .photoBoxFlex {
   display: flex;
   margin: 0 5%;
+}
+
+.photoBoxComments {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.photoBoxComments img {
+  padding-right: 10px;
 }
 
 .rightArrow {
@@ -300,9 +310,11 @@
 }
 
 .mainMenuText {
-  width: 500px;
+  width: 400px;
   transform: rotate(270deg);
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .mainFlex {
@@ -403,7 +415,7 @@
 
 .texturesText {
   color: white;
-  margin-left: 200px;
+  margin-left: 50%;
 }
 
 .texturesText h3 {
@@ -412,6 +424,11 @@
 
 .texturesText h2 {
   font-size: 3rem;
+  margin: 10px 0px;
+}
+
+.texturesText span {
+  line-height: 25px;
 }
 
 .footerBackground {
@@ -423,6 +440,7 @@
   margin: 5%;
   width: 60%;
   display: flex;
+  line-height: 25px;
 }
 
 .footerContent h4 {

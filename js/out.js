@@ -9830,6 +9830,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'photoBoxComments' },
+                                    _react2.default.createElement('img', { src: './images/notification.png' }),
                                     '374 comments'
                                 )
                             )
@@ -9862,6 +9863,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'photoBoxComments' },
+                                    _react2.default.createElement('img', { src: './images/notification.png' }),
                                     '374 comments'
                                 )
                             )
@@ -9894,6 +9896,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'photoBoxComments' },
+                                    _react2.default.createElement('img', { src: './images/notification.png' }),
                                     '374 comments'
                                 )
                             )
@@ -10203,7 +10206,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(
                             'span',
                             null,
-                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quo atque, ipsum laborum.'
+                            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ',
+                            _react2.default.createElement('br', null),
+                            'Dicta ut quo atque, ipsum laborum.'
                         )
                     )
                 );

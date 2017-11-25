@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', function(){
             <div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
             </div>
             <div className="photoBox"><div className="boxPhoto"><img src="./images/second-box.png" /></div><div className="photoBoxText"><h2>Texture</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div>
-            <div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
+            <div className="photoBoxFooter"><div className="photoBoxComments"><img src="./images/notification.png" />374 comments</div></div>
             </div>
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/third-box.png" /></div><div className="photoBoxText"><h2>Decayed</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div><div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/third-box.png" /></div><div className="photoBoxText"><h2>Decayed</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div><div className="photoBoxFooter"><div className="photoBoxComments"><img src="./images/notification.png" />374 comments</div></div>
             </div>
-            <div className="photoBox"><div className="boxPhoto"><img src="./images/four-box.png" /></div><div className="photoBoxText"><h2>Bliss Texture</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div><div className="photoBoxFooter"><div className="photoBoxComments">374 comments</div></div>
+            <div className="photoBox"><div className="boxPhoto"><img src="./images/four-box.png" /></div><div className="photoBoxText"><h2>Bliss Texture</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dicta aspernatur voluptatibus hic reprehenderit eligendi sed asperiores.</span></div><div className="photoBoxFooter"><div className="photoBoxComments"><img src="./images/notification.png" />374 comments</div></div>
             </div>
             <div className="rightArrow"><div className="rightSliderArrow"></div></div> 
             </div>
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 
                 <div className="texturesBackground">
                 
-                <div className="texturesText"><h3>Textures By</h3><h2>Jordan Hetzer</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quo atque, ipsum laborum.</span></div>
+                <div className="texturesText"><h3>Textures By</h3><h2>Jordan Hetzer</h2><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />Dicta ut quo atque, ipsum laborum.</span></div>
                 
                 </div>
             )
