@@ -1,5 +1,5 @@
 # React.js-Website
 
-React.js, Sass
+React.js, Sass, PSD Template
 
 https://voytazz.github.io/React.js-Website/
