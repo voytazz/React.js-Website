@@ -367,7 +367,7 @@
 
 .secondPictureMenu {
   width: 5%;
-  height: 50vh;
+  height: 30vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -384,7 +384,7 @@
 
 .pictureBox {
   width: 95%;
-  height: 50vh;
+  height: 30vh;
   display: flex;
 }
 
@@ -446,7 +446,7 @@
 .footerContent h4 {
   font-size: 1.5rem;
   margin-bottom: 10%;
-  color: #0d4160;
+  color: white;
 }
 
 .footerAbout {
