@@ -9638,7 +9638,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         _react2.default.createElement(YourPassion, null)
                     ),
                     _react2.default.createElement(MainText, null),
-                    _react2.default.createElement(ProductionBoxes, null),
                     _react2.default.createElement(SecondPictureBoxes, null),
                     _react2.default.createElement(JordanTextures, null),
                     _react2.default.createElement(MainFooter, null)
@@ -10057,35 +10056,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return YourPassion;
     }(_react2.default.Component);
 
-    var ProductionBoxes = function (_React$Component8) {
-        _inherits(ProductionBoxes, _React$Component8);
-
-        function ProductionBoxes() {
-            _classCallCheck(this, ProductionBoxes);
-
-            return _possibleConstructorReturn(this, (ProductionBoxes.__proto__ || Object.getPrototypeOf(ProductionBoxes)).apply(this, arguments));
-        }
-
-        _createClass(ProductionBoxes, [{
-            key: 'render',
-            value: function render() {
-                return _react2.default.createElement(
-                    'div',
-                    { className: 'pictureSection' },
-                    _react2.default.createElement(
-                        'h2',
-                        null,
-                        'Pictures worth seeing'
-                    )
-                );
-            }
-        }]);
-
-        return ProductionBoxes;
-    }(_react2.default.Component);
-
-    var SecondPictureBoxes = function (_React$Component9) {
-        _inherits(SecondPictureBoxes, _React$Component9);
+    var SecondPictureBoxes = function (_React$Component8) {
+        _inherits(SecondPictureBoxes, _React$Component8);
 
         function SecondPictureBoxes() {
             _classCallCheck(this, SecondPictureBoxes);
@@ -10175,8 +10147,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return SecondPictureBoxes;
     }(_react2.default.Component);
 
-    var JordanTextures = function (_React$Component10) {
-        _inherits(JordanTextures, _React$Component10);
+    var JordanTextures = function (_React$Component9) {
+        _inherits(JordanTextures, _React$Component9);
 
         function JordanTextures() {
             _classCallCheck(this, JordanTextures);
@@ -10218,8 +10190,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return JordanTextures;
     }(_react2.default.Component);
 
-    var MainFooter = function (_React$Component11) {
-        _inherits(MainFooter, _React$Component11);
+    var MainFooter = function (_React$Component10) {
+        _inherits(MainFooter, _React$Component10);
 
         function MainFooter() {
             _classCallCheck(this, MainFooter);
@@ -10330,8 +10302,8 @@ document.addEventListener('DOMContentLoaded', function () {
         return MainFooter;
     }(_react2.default.Component);
 
-    var App = function (_React$Component12) {
-        _inherits(App, _React$Component12);
+    var App = function (_React$Component11) {
+        _inherits(App, _React$Component11);
 
         function App() {
             _classCallCheck(this, App);
