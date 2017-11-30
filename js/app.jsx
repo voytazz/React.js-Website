@@ -149,10 +149,10 @@ document.addEventListener('DOMContentLoaded', function(){
                            <li>1300-369-095</li>
                         </ul>
                         </div>
+                        
                     </div>
-                    
-                    
                 </div>
+              
             )
         }
     }
